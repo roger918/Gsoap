@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns2="Wellth.Services/Imports"
+ xmlns:ns6="http://schemas.datacontract.org/2004/07/Wellth.Data"
+ xmlns:ns7="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses"
+ xmlns:ns8="http://schemas.datacontract.org/2004/07/System.Data"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns4="http://schemas.datacontract.org/2004/07/Wellth.Services.Contracts"
+ xmlns:ns1="http://tempuri.org/"
+ xmlns:ns3="Wellth.Services"
+ xmlns:c14n="http://www.w3.org/2001/10/xml-exc-c14n#"
+ xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+ xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+ xmlns:wsc="http://schemas.xmlsoap.org/ws/2005/02/sc"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+  <ns3:GetReadingNameAndCustomReadingNameByIdResponse>
+   <ns3:GetReadingNameAndCustomReadingNameByIdResult>
+    <ns6:ReadingNames>
+     <ns6:CanIgnore>false</ns6:CanIgnore>
+     <ns6:Comments></ns6:Comments>
+     <ns6:Default_Value></ns6:Default_Value>
+     <ns6:HasChild></ns6:HasChild>
+     <ns6:LowerTheBetter>false</ns6:LowerTheBetter>
+     <ns6:MeasurementBy>0</ns6:MeasurementBy>
+     <ns6:MeasurementContext></ns6:MeasurementContext>
+     <ns6:Measurement_Context>false</ns6:Measurement_Context>
+     <ns6:NormalRange></ns6:NormalRange>
+     <ns6:Parent_ReadingId>0</ns6:Parent_ReadingId>
+     <ns6:ReadingDate>2013-03-27T06:29:58Z</ns6:ReadingDate>
+     <ns6:ReadingID>0</ns6:ReadingID>
+     <ns6:ReadingName></ns6:ReadingName>
+     <ns6:ReadingRecordId>0</ns6:ReadingRecordId>
+     <ns6:ReadingTime></ns6:ReadingTime>
+     <ns6:ReadingType></ns6:ReadingType>
+     <ns6:ReadingValue>0.0</ns6:ReadingValue>
+     <ns6:TargetMaxValue></ns6:TargetMaxValue>
+     <ns6:TargetMinValue></ns6:TargetMinValue>
+     <ns6:TargetRange>false</ns6:TargetRange>
+     <ns6:TargetValue></ns6:TargetValue>
+     <ns6:Unit_Name></ns6:Unit_Name>
+     <ns6:WebsiteReference></ns6:WebsiteReference>
+     <!-- extensibility element(s) -->
+
+    </ns6:ReadingNames>
+    <ns6:ReadingNames>
+     <ns6:CanIgnore>false</ns6:CanIgnore>
+     <ns6:Comments></ns6:Comments>
+     <ns6:Default_Value></ns6:Default_Value>
+     <ns6:HasChild></ns6:HasChild>
+     <ns6:LowerTheBetter>false</ns6:LowerTheBetter>
+     <ns6:MeasurementBy>0</ns6:MeasurementBy>
+     <ns6:MeasurementContext></ns6:MeasurementContext>
+     <ns6:Measurement_Context>false</ns6:Measurement_Context>
+     <ns6:NormalRange></ns6:NormalRange>
+     <ns6:Parent_ReadingId>0</ns6:Parent_ReadingId>
+     <ns6:ReadingDate>2013-03-27T06:29:58Z</ns6:ReadingDate>
+     <ns6:ReadingID>0</ns6:ReadingID>
+     <ns6:ReadingName></ns6:ReadingName>
+     <ns6:ReadingRecordId>0</ns6:ReadingRecordId>
+     <ns6:ReadingTime></ns6:ReadingTime>
+     <ns6:ReadingType></ns6:ReadingType>
+     <ns6:ReadingValue>0.0</ns6:ReadingValue>
+     <ns6:TargetMaxValue></ns6:TargetMaxValue>
+     <ns6:TargetMinValue></ns6:TargetMinValue>
+     <ns6:TargetRange>false</ns6:TargetRange>
+     <ns6:TargetValue></ns6:TargetValue>
+     <ns6:Unit_Name></ns6:Unit_Name>
+     <ns6:WebsiteReference></ns6:WebsiteReference>
+     <!-- extensibility element(s) -->
+
+    </ns6:ReadingNames>
+    <!-- extensibility element(s) -->
+
+   </ns3:GetReadingNameAndCustomReadingNameByIdResult>
+  </ns3:GetReadingNameAndCustomReadingNameByIdResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

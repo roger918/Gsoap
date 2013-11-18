@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+ xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+ xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+ xmlns:ns2="Wellth.Services/Imports"
+ xmlns:ns6="http://schemas.datacontract.org/2004/07/Wellth.Data"
+ xmlns:ns7="http://schemas.datacontract.org/2004/07/System.Data.Objects.DataClasses"
+ xmlns:ns8="http://schemas.datacontract.org/2004/07/System.Data"
+ xmlns:ns5="http://schemas.microsoft.com/2003/10/Serialization/"
+ xmlns:ns4="http://schemas.datacontract.org/2004/07/Wellth.Services.Contracts"
+ xmlns:ns1="http://tempuri.org/"
+ xmlns:ns3="Wellth.Services"
+ xmlns:c14n="http://www.w3.org/2001/10/xml-exc-c14n#"
+ xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+ xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+ xmlns:wsc="http://schemas.xmlsoap.org/ws/2005/02/sc"
+ xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+ xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <ns3:GetEmployeeDetails>
+    <ns3:OrganizationID>0</ns3:OrganizationID>
+   </ns3:GetEmployeeDetails>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
